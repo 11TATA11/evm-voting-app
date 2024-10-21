@@ -9,6 +9,8 @@ function createWindow() {
         webPreferences: {
             nodeIntegration: true,
             contextIsolation: false,
+            webSecurity: false // Disable web security for testing
+
         },
     });
 
