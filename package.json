@@ -1,0 +1,19 @@
+{
+  "name": "evm-voting-app",
+  "version": "1.0.0",
+  "description": "A simple voting bot for interacting with an EVM contract",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^25.0.0",
+    "ethers": "^6.0.0"
+  },
+
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.0.0",
+    "hardhat": "^2.22.13"
+  }
+}

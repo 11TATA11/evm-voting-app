@@ -1,0 +1,69 @@
+/* styles.css */
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Light background color */
+    color: #333; /* Dark text color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    padding: 20px;
+}
+
+/* Title styles */
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem; /* Larger title font */
+    color: #121173; /* Dark blue color for the title */
+}
+
+/* Form styles */
+form {
+    background-color: white; /* White background for the form */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 100%;
+    max-width: 400px; /* Limit width of the form */
+}
+
+/* Input styles */
+input {
+    width: 100%; /* Full width */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Slightly rounded corners */
+}
+
+/* Button styles */
+button {
+    width: 100%; /* Full width */
+    padding: 10px;
+    background-color: #121173; /* Dark blue button background */
+    color: white; /* White text color */
+    border: none;
+    border-radius: 5px; /* Slightly rounded corners */
+    cursor: pointer;
+    font-size: 1rem; /* Font size */
+}
+
+button:hover {
+    background-color: #0e0e5d; /* Darker shade on hover */
+}
+
+/* Status message styles */
+#status {
+    margin-top: 20px;
+    color: red; /* Error message color */
+}
